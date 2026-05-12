@@ -1,0 +1,159 @@
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Department of Computer Science</title>
+</head>
+<body>
+
+    <header>
+        <h1>Department of Computer Science</h1>
+        <figure>
+            <img src="placeholder_building.jpg" alt="Department Image">
+            <figcaption>Computer Science Department Building</figcaption>
+        </figure>
+        <nav>
+            <a href="#about">About</a> | 
+            <a href="#programs">Programs</a> | 
+            <a href="#courses">Courses</a> | 
+            <a href="#media">Media</a> | 
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section id="about">
+        <h2>About the Department</h2>
+        <p>The Department of Computer Science provides high-quality education and research opportunities in software engineering, artificial intelligence, data science, and networking.</p>
+        
+        <details>
+            <summary>Read More About Our Mission</summary>
+            <p>Our mission is to foster innovation, critical thinking, and problem-solving skills through cutting-edge research and industry collaboration.</p>
+        </details>
+    </section>
+
+    <section id="programs">
+        <h2>Programs Offered</h2>
+        <ol>
+            <li>BSc in Computer Science</li>
+            <li>MSc in Computer Science</li>
+            <li>PhD in Computer Science</li>
+        </ol>
+
+        <h3>Program Duration</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Program</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BSc</td>
+                    <td>4 Years</td>
+                </tr>
+                <tr>
+                    <td>MSc</td>
+                    <td>2 Years</td>
+                </tr>
+                <tr>
+                    <td>PhD</td>
+                    <td>3-5 Years</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Enrollment Capacity</h3>
+        <p>
+            BSc Program: <progress value="80" max="100"></progress> 80% <br>
+            MSc Program: <progress value="60" max="100"></progress> 60% <br>
+            PhD Program: <progress value="40" max="100"></progress> 40%
+        </p>
+    </section>
+
+    <section id="courses">
+        <h2>Key Courses</h2>
+        <dl>
+            <dt><strong>Programming Fundamentals</strong></dt>
+            <dd>Introduction to programming concepts and logic building.</dd>
+            
+            <dt><strong>Data Structures</strong></dt>
+            <dd>Study of efficient data organization techniques.</dd>
+            
+            <dt><strong>Database Systems</strong></dt>
+            <dd>Design and management of relational databases.</dd>
+        </dl>
+    </section>
+
+    <section id="media">
+        <h2>Department Media</h2>
+        <h3>Introduction Video</h3>
+        <video controls width="400">
+            <source src="20260109142713.mp4" type="video/mp4">
+        </video>
+
+        <h3>Department Podcast</h3>
+        <audio controls>
+            <source src="I NEED IRON BLOCKS - QuickSounds.com.mp3" type="audio/mpeg">
+        </audio>
+
+        <h3>Virtual Tour (YouTube)</h3>
+  <iframe width="560" height="315"
+src="https://www.youtube.com/embed/9bZkp7q19f0"
+title="YouTube video player"
+frameborder="0"
+allowfullscreen>
+</iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <p>
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" required>
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="program">Select Program:</label><br>
+                <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <p>
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname">
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label for="program">Select Program:</label><br>
+                <select id="program" name="program">
+                    <option value="bsc">BSc</option>
+                    <option value="msc">MSc</option>
+                    <option value="phd">PhD</option>
+                </select>
+            </p>
+            <p>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </section>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 Department of Computer Science | <a href="mailto:info@csdept.com">info@csdept.com</a></p>
+    </footer>
+
+</body>
+</html>
