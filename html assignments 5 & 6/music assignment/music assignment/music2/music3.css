@@ -182,7 +182,7 @@ padding:10px 18px;
 }
 
 }
-
+/* HERO */
 .hero{
     width:90%;
     margin:40px auto;
@@ -467,6 +467,7 @@ padding:10px 18px;
 }
 
 }
+/* Artists */
 
 .artists{
     width:90%;
@@ -510,7 +511,7 @@ padding:10px 18px;
 .artist-card h3{
     padding:15px;
 }
-
+/* Features */
 .features{
     width:90%;
     margin:80px auto;
@@ -591,7 +592,7 @@ padding:10px 18px;
 }
 /* Footer */
 footer{
-    background:#1bde69;
+    background:#111;
 
     color:white;
 

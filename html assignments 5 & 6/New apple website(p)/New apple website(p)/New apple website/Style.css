@@ -211,18 +211,19 @@ h3 {
 /* Updated: Added position absolute requirements for child layering */
 .slider-section .slide {
     position: relative;
-    border-radius: 14px;
-    overflow: hidden;
-    flex-shrink: 0;
+    border-radius: 14px;[cite: 2]
+    overflow: hidden;[cite: 2]
+    flex-shrink: 0;[cite: 2]
 }
 
 .slider-section .slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
+    display: block;[cite: 2]
 }
 
+/* Content layer on top of imagery */
 .slide-content {
     position: absolute;
     bottom: 35px;
